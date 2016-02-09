@@ -1,49 +1,55 @@
-.body {
+*
+{margin:0;
+padding:0;
+}
+.wrapper {
 	 width: 100%;
 	 background: #EEEEEE;
 	 margin: 0px;
 	 border-bottom: 5px solid black;
 	}
-.block1{
+.block_white
+	{
 	 width: 50%;
 	 background: white;
-	 margin: 0px 500px;
-	 padding: 10px 50px;
-	 border-top: 2px ridge gray;
-	 border-left: 2px ridge gray;
-	 border-right: 2px ridge gray;
+	 margin: 0px 500px 50px 500px;
+	 padding: 10px 0px;
+	 border: 2px ridge gray;
+	 -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+	 -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+	 box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+	 }
+
+.block1{
+	 width: 90%;
+	 background: white;
+	 margin: 0px 50px;
+	 padding: 10px 0px;
 	 }
 
 .block2{
-	 width: 50%;
+	 width: 90%;
 	 background: white;
-	 margin: 0px 500px;
-	 padding: 10px 50px;
-	 border-left: 2px ridge gray;
-	 border-right: 2px ridge gray;
-	 }
+	 margin: 0px 50px;
+	 padding: 10px 0px;
+	  }
 
 .block3{
-	 width: 50%;
+	 width: 90%;
 	 background: white;
-	 margin: 0px 500px 70px 500px;
-	 padding: 0px 50px 20px 50px;
-	 border-left: 2px ridge gray;
- 	 border-right: 2px ridge gray;
-	 border-bottom: 2px ridge gray;
+	 margin: 0px 500px 70px 50px;
+	 padding: 0px 0px 20px 0px;
 	 }
 	
 .text{
  	width: 90%;
 	margin: 15px 50px;
 	padding: 0px 20px 20px 20px;
-
 	align:center;
 	text-align:left;
 	font-family: 'Times New Roman', Times, serif;
     	font-size: 150%; 
 	border-bottom: 2px solid gray;
-
 	}
 .text1{
  	width: 90%;
@@ -63,16 +69,12 @@
 	font-family: 'Times New Roman', Times, serif;
     	font-size: 150%; 
 	border-bottom: 2px solid gray;
-
 	}
-
-
-
 .img{	
 	display: block;
 	height:300px;
 	width:230px;
 	margin: 0 auto;
 	align=top;
-}	
+	}	
 	
