@@ -2,11 +2,17 @@
 {margin:0;
 padding:0;
 }
-.wrapper {
+body
+	{
+	background: black;
+	}
+.wrapper
+	{
 	 width: 100%;
 	 background: #EEEEEE;
 	 margin: 0px;
 	 border-bottom: 5px solid black;
+	 border-radius: 0 0 10px 10px;
 	}
 .block_white
 	{
@@ -21,19 +27,21 @@ padding:0;
 	 box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
 	 }
 
-.block1{
+.block1
+	{
 	 width: 812px;
 	 background: white;
 	 margin: 0 auto;
 	 padding: 10px 0px;
 	 }
 
-.block2{
+.block2
+	{
 	 width: 812px;
 	 background: white;
 	 margin: 0 auto;
 	 padding: 10px 0px;
-	  }
+	 }
 
 .block3{
 	 width: 812px;
@@ -42,33 +50,35 @@ padding:0;
 	 padding: 0px 0px 20px 0px;
 	 }
 	
-.text{
+.text
+	{
  	width: 80%;
 	margin: 15px 40px;
 	padding: 0px 20px 20px 20px;
-	
 	text-align:left;
 	font-family: 'Times New Roman', Times, serif;
-    	font-size: 150%; 
+    font-size: 150%; 
 	border-bottom: 2px solid gray;
 	}
-.text1{
+.text1
+	{
  	width: 80%;
 	margin: 0px 50px;
 	padding: 10px 10px 50px 10px;
 	align:center;
 	text-align:left;
 	font-family: 'Times New Roman', Times, serif;
-    	font-size: 150%; 
+    font-size: 150%; 
 	}
-.text2{
+.text2
+	{
  	width: 80%;
 	margin:0px 50px;
 	padding: 0px 0px 20px 50px ;
 	align:center;
 	text-align:left;
 	font-family: 'Times New Roman', Times, serif;
-    	font-size: 150%; 
+    font-size: 150%; 
 	border-bottom: 2px solid gray;
 	}
 .img{	
@@ -76,6 +86,5 @@ padding:0;
 	height:300px;
 	width:230px;
 	margin: 0 auto;
-	
 	}	
 	
